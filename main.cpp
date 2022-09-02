@@ -11,19 +11,19 @@ using namespace std;
 
 
 int main(int argc, char* argv[]) {
+	vector<int> dimensions = { 400, 400 };
 	SDL_Window* window = nullptr;
 	SDL_Renderer* renderer = nullptr;
 	SDL_Init(SDL_INIT_VIDEO);
-	SDL_CreateWindowAndRenderer(400, 400, 0, &window, &renderer);
+	SDL_CreateWindowAndRenderer(dimensions[0], dimensions[1], 0, &window, &renderer);
 	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 	SDL_RenderClear(renderer);
 	SDL_RenderPresent(renderer);
 
 	vector<px> pxls = {};
-
-	line({ 20, 100 }, { 50, 70 }, { 255, 255, 255, 255 }, renderer, &pxls);
-	triangle({ 150, 150 }, { 20, 40 }, { 200, 160 }, { 255, 255, 255, 255 }, renderer, &pxls);
-	show_px(pxls, renderer);
+	triangle_filled({ 50, 100 }, { 50, -100 }, { -70, 50 }, { 100, 100, 100, 255 }, &pxls);
+	triangle({ 50, 100 }, { 50, -100 }, { -70, 50 }, { 255, 255, 255, 255 }, &pxls);
+	show_px(pxls, renderer, dimensions);
 
 	bool running = true;
 	SDL_Event ev;
