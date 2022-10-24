@@ -5,13 +5,14 @@
 #include "px.h"
 #include "triangle.h"
 #include "line.h"
+#include "graph.h"
 #pragma once
 
 using namespace std;
 
 
 int main(int argc, char* argv[]) {
-	vector<int> dimensions = { 400, 400 };
+	vector<int> dimensions = { 500, 500 };
 	SDL_Window* window = nullptr;
 	SDL_Renderer* renderer = nullptr;
 	SDL_Init(SDL_INIT_VIDEO);
@@ -21,8 +22,28 @@ int main(int argc, char* argv[]) {
 	SDL_RenderPresent(renderer);
 
 	vector<px> pxls = {};
-	triangle_filled({ 50, 100 }, { 50, -100 }, { -70, 50 }, { 100, 100, 100, 255 }, &pxls);
-	triangle({ 50, 100 }, { 50, -100 }, { -70, 50 }, { 255, 255, 255, 255 }, &pxls);
+	//triangle_filled({ 50, 100 }, { 50, -100 }, { -70, 50 }, { 100, 100, 100, 255 }, &pxls);
+	//triangle_wire({ 50, 100 }, { 50, -100 }, { -70, 50 }, { 255, 255, 255, 255 }, &pxls);
+	graph(dimensions, { 64, 153, 153, 255 }, -0.005, 0, 50, &pxls);
+
+
+	/*triangle_shaded(
+		{
+			{237, 86, 26},
+			{50, 100}
+		},
+		{
+			{64, 153, 153},
+			{50, -100}
+		},
+		{
+			{64, 153, 153},
+			{-70, 50}
+		},
+		&pxls
+	);
+	*/
+
 	show_px(pxls, renderer, dimensions);
 
 	bool running = true;

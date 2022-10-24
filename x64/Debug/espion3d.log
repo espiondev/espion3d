@@ -1,1 +1,216 @@
-﻿  espion3d.vcxproj -> C:\Users\Stude\Documents\GitHub\espion3d\x64\Debug\espion3d.exe
+﻿  main.cpp
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(12,20): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(18,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(20,20): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(37,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(62,79): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(62,68): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(62,57): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(62,46): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(80,79): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(80,68): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(80,57): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\line.h(80,46): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\distance.h(10,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\distance.h(29,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(27,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(27,62): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(27,51): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(27,40): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(28,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(28,62): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(28,51): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(28,40): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(29,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(29,62): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(29,51): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(29,40): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(34,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(96,85): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(96,71): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(96,57): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(96,43): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(97,85): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(97,71): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(97,57): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(97,43): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(98,85): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(98,71): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(98,57): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(98,43): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(100,70): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(100,51): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(101,70): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(101,51): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(102,70): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(102,51): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(115,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(158,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\triangle.h(158,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Stude\Documents\GitHub\espion3d\graph.h(22,40): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Stude\Documents\GitHub\espion3d\main.cpp(27,63): warning C4305: 'argument': truncation from 'double' to 'float'
+  espion3d.vcxproj -> C:\Users\Stude\Documents\GitHub\espion3d\x64\Debug\espion3d.exe

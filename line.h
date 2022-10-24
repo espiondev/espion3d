@@ -15,7 +15,7 @@ vector<int> interpolate(float i0, float d0, float i1, float d1)
 
 	float a = (d1 - d0) / (i1 - i0);
 	float d = d0;
-	for (int i = i0; i < i1 + 1; i++)
+	for (int i = i0; i <= i1; i++)
 	{
 		points.push_back(d);
 		d = d + a;
@@ -34,7 +34,7 @@ vector<float> interpolate_float(float i0, float d0, float i1, float d1)
 
 	float a = (d1 - d0) / (i1 - i0);
 	float d = d0;
-	for (int i = i0; i < i1 + 1; i++)
+	for (int i = i0; i <= i1; i++)
 	{
 		points.push_back(d);
 		d = d + a;
@@ -86,6 +86,7 @@ void line(vector<int> point1, vector<int> point2, vector<int> rgba, vector<px>* 
 				rgba,
 				{ x_values[i - point1[1]], i }
 				});
+
 		}
 	}
 }
