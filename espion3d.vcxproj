@@ -145,6 +145,7 @@
     <ClInclude Include="distance.h" />
     <ClInclude Include="graph.h" />
     <ClInclude Include="line.h" />
+    <ClInclude Include="mathstuff.h" />
     <ClInclude Include="misc.h" />
     <ClInclude Include="px.h" />
     <ClInclude Include="sdl_stuff.h" />
