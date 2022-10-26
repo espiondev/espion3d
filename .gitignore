@@ -1,4 +1,6 @@
-
+*.sln
 *.opendb
 *.vsidx
-*.vsidx
+*.filters
+*.vcxproj.*
+*.user
