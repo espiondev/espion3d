@@ -213,4 +213,5 @@ C:\Users\Stude\Documents\GitHub\espion3d\graph.h(22,40): warning C4244: 'argumen
               _Ty=int
           ]
 C:\Users\Stude\Documents\GitHub\espion3d\main.cpp(27,63): warning C4305: 'argument': truncation from 'double' to 'float'
+  LINK : C:\Users\Stude\Documents\GitHub\espion3d\x64\Debug\espion3d.exe not found or not built by the last incremental link; performing full link
   espion3d.vcxproj -> C:\Users\Stude\Documents\GitHub\espion3d\x64\Debug\espion3d.exe

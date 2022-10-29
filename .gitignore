@@ -4,9 +4,6 @@
 *.filters
 *.vcxproj.*
 *.user
-.vs/*
-.vs/
-SDL2-2.24.0/*
-SDL2-2.24.0/
-x64/*
-x64/
+/.vs
+/SDL2-2.24.0
+/x64
