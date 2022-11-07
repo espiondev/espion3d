@@ -1,9 +1,0 @@
-*.sln
-*.opendb
-*.vsidx
-*.filters
-*.vcxproj.*
-*.user
-/.vs
-/SDL2-2.24.0
-/x64
