@@ -1,0 +1,70 @@
+#include "esp_structs.h"
+#include "triangle.h"
+#include <vector>
+using namespace std;
+
+void spingradient()
+{
+    vector<point_s> pxls;
+    vector<int>
+        ascending;
+    vector<int> descending;
+    for (int i = 254; i >= 0; i--)
+    {
+        descending.push_back(i);
+    }
+    for (int i = 0; i <= 254; i++)
+    {
+        ascending.push_back(i);
+    }
+    int t = 0;
+    int phase = 0;
+
+    if (phase == 0)
+    {
+        triangle_shaded(
+            {{ascending[t], 0, descending[t], 255},
+             {0, 100}},
+            {{0, descending[t], ascending[t], 255},
+             {-70, 0}},
+            {{descending[t], ascending[t], 0, 255},
+             {70, 0}},
+            &pxls);
+    }
+    else if (phase == 1)
+    {
+        triangle_shaded(
+            {{descending[t], ascending[t], 0, 255},
+             {0, 100}},
+            {{ascending[t], 0, descending[t], 255},
+             {-70, 0}},
+            {{0, descending[t], ascending[t], 255},
+             {70, 0}},
+            &pxls);
+    }
+    else if (phase == 2)
+    {
+        triangle_shaded(
+            {{0, descending[t], ascending[t], 255},
+             {0, 100}},
+            {{descending[t], ascending[t], 0, 255},
+             {-70, 0}},
+            {{ascending[t], 0, descending[t], 255},
+             {70, 0}},
+            &pxls);
+    }
+
+    show_px(pxls, renderer, dimensions);
+    SDL_UpdateWindowSurface(window);
+    pxls = {};
+    t += 15;
+    if (t >= 255)
+    {
+        t = 0;
+        phase++;
+        if (phase == 3)
+        {
+            phase = 0;
+        }
+    };
+}
